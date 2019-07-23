@@ -1,0 +1,15 @@
+void dialog(string messaje)
+{
+speak(messaje);
+
+while(true)
+{
+wait(5);
+
+if(key_pressed(KEY_UP) or key_pressed(KEY_DOWN) or key_pressed(KEY_LEFT) or key_pressed(KEY_RIGHT))
+speak(messaje);
+
+if(key_pressed(KEY_RETURN) or key_pressed(KEY_SPACE))
+break;
+}
+}

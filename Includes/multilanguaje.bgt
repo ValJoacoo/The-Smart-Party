@@ -1,0 +1,58 @@
+class multilanguaje
+{
+private string[] lines;
+private string[] values;
+private string filename;
+private string text;
+
+bool set_file(string filename)
+{
+file f;
+values.resize(0);
+lines.resize(0);
+this.filename=filename;
+
+bool opening=f.open(filename, "r");
+if(opening==false)
+{
+alert("Error", "There was an error opening the file "+filename+". Contact the developer.");
+return this.filename!="";
+}
+else
+{
+string d;
+d=f.read();
+string[] parseddata=string_split(d, "\r\n", false);
+for(int i=0; i<parseddata.length; i++)
+{
+string[] parseddata2=string_split(parseddata[i], "=", false);
+if(parseddata2.length!=2)
+continue;
+else
+{
+lines.insert_last(parseddata2[0]);
+values.insert_last(parseddata2[1]);
+}
+}
+}
+return this.filename!="";
+}
+
+string get_value(string line)
+{
+for(int i=0; i<lines.length(); i++)
+{
+if(lines[i]==line)
+{
+for(int i2=0; i2<lines.length(); i2++)
+{
+if(i==i2)
+{
+return values[i2];
+}
+}
+}
+}
+return line;
+}
+}

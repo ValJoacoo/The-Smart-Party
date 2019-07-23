@@ -1,0 +1,21 @@
+void exit_pro(int milisecons=25)
+{
+fade(music, -50, 25);
+exit();
+}
+
+void save_settings()
+{
+f.open("Settings.dat", "w");
+f.write((musvolume+100)+"%
+"+(menuvolume+100)+"%
+"+languaje);
+f.close();
+}
+
+string loading_pack(string password="")
+{
+set_sound_storage("Sound.dat");
+set_sound_decryption_key(password, false);
+return "";
+}

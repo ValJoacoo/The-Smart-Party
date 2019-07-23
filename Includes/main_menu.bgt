@@ -1,0 +1,53 @@
+void main_menu()
+{
+dynamic_menu_pro menu;
+menu.add_movement_sound(sn+"menu1.wav", menuvolume);
+menu.add_return_sound(sn+"menu2.wav", menuvolume);
+menu.add_wrap_sound(sn+"menu3.wav", menuvolume);
+menu.add_option(lang.get_value("Start"));
+menu.add_option(lang.get_value("Options"));
+menu.add_option(lang.get_value("Exit"));
+int mainmenu=menu.start(lang.get_value("MAIN MENU"), false);
+
+if(mainmenu==-1 or mainmenu==3)
+exit_pro(25);
+else if(mainmenu==0)
+main();
+
+if(mainmenu==1)
+game();
+if(mainmenu==2)
+{
+dynamic_menu_pro menu;
+menu.add_movement_sound(sn+"menu1.wav", menuvolume);
+menu.add_return_sound(sn+"menu2.wav", menuvolume);
+menu.add_wrap_sound(sn+"menu3.wav", menuvolume);
+menu.add_option(lang.get_value("Choose languaje"));
+menu.add_option(lang.get_value("Go back"));
+int optionmenu=menu.start(lang.get_value("OPTIONS MENU"), false);
+
+if(optionmenu==-1)
+exit_pro(25);
+if(optionmenu==0 or optionmenu==2)
+main_menu();
+
+if(optionmenu==1)
+{
+dynamic_menu_pro menu;
+menu.add_option(lang.get_value("English"));
+menu.add_option(lang.get_value("Español"));
+int langmenu=menu.start(lang.get_value("Choose a languaje"), false);
+
+if(langmenu==-1)
+exit_pro(25);
+if(langmenu==0)
+main_menu();
+
+if(langmenu==1)
+languaje="English";
+if(langmenu==2)
+languaje="Spanish";
+save_settings();
+}
+}
+}

@@ -1,0 +1,32 @@
+#include "Includes/Dialog.bgt"
+#include "Includes/Dynamic_Menu_Pro.bgt"
+#include "Includes/Fade.bgt"
+#include "Includes/Main_menu.bgt"
+#include "Includes/Multilanguaje.bgt"
+#include "Includes/Other_functions.bgt"
+#include "Includes/Speak.bgt"
+const string game_name="The Smart Party";
+const string game_version="0.11.2Beta";
+sound enter;
+sound movement;
+sound music;
+sound wrap;
+file f;
+multilanguaje lang;
+string[] lines;
+string[] quest;
+string[] options(4);
+string[] question_menu;
+string[] files=find_directories("Languaje/");
+string[] config(2);
+string sn=loading_pack("YWJjZGVmZ2hpamtsbW5vcHFyc3R1Ynd4eXoxMjM0NTY3ODkw");
+string text;
+string correct;
+string languaje="English";
+int musvolume=-10;
+int menuvolume=-10;
+int y;
+int z;
+int menu_position;
+int time_config=15;
+bool executing=false;

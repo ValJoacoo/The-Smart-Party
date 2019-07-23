@@ -1,0 +1,112 @@
+int option;
+
+class dynamic_menu_pro
+{
+string[] item;
+int p=0;
+bool wrap=false;
+sound music;
+sound w;
+sound r;
+sound m;
+
+void add_option(string text, bool activate=true)
+{
+if(activate==true)
+item.insert_last(text);
+}
+void add_music(string rute, int volume=-5)
+{
+music.load(rute);
+music.volume=volume;
+music.play_looped();
+}
+void add_wrap_sound(string rute, int volume=-5)
+{
+w.load(rute);
+w.volume=volume;
+}
+void add_return_sound(string rute, int volume=-5)
+{
+r.load(rute);
+r.volume=volume;
+}
+void add_movement_sound(string rute, int volume=-5)
+{
+m.load(rute);
+m.volume=volume;
+}
+
+int start(string text, bool audio=false)
+{
+if(audio==true)
+{
+sound aud;
+aud.load(text);
+aud.play();
+}
+else
+{
+wait(100);
+speak(text);
+}
+while(true)
+{
+wait(5);
+
+if(key_pressed(KEY_UP))
+{
+p-=1;
+if(p==-1)
+{
+if(wrap==false)
+{
+p=0;
+w.play();
+}
+else
+p=item.length()-1;
+}
+else
+m.play();
+speak(item[p]);
+}
+
+if(key_pressed(KEY_DOWN))
+{
+p+=1;
+if(p==item.length())
+{
+if(wrap==false)
+{
+p=item.length()-1;
+w.play();
+}
+else
+p=0;
+}
+else
+m.play();
+speak(item[p]);
+}
+
+if(key_pressed(KEY_RETURN))
+{
+r.play();
+return option=p+1;
+}
+
+if(key_down(KEY_LMENU)&&key_pressed(KEY_F4) or key_down(KEY_RMENU)&&key_pressed(KEY_F4))
+{
+return option=-1;
+}
+if(key_pressed(KEY_ESCAPE))
+{
+return option=0;
+}
+
+wait(5);
+}
+return option=0;
+}
+}
