@@ -84,8 +84,8 @@ question_menu=options;
 options.insert_at(0, text);
 f.close();
 
-speak(options[0]);
 wait(500);
+speak(options[0]);
 
 while(true)
 {
