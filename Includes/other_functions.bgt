@@ -1,5 +1,9 @@
-void exit_pro(int milisecons=25)
+void exit_pro(int milisecons=25, bool set=false)
 {
+if(set==true)
+speak(lang.get_value("Saving the last configuration change")+" ...");
+else
+speak(lang.get_value("Exiting")+" ...");
 fade(music, -50, 25);
 exit();
 }
@@ -7,15 +11,21 @@ exit();
 void save_settings()
 {
 f.open("Settings.dat", "w");
-f.write((musvolume+100)+"%
-"+(menuvolume+100)+"%
-"+languaje);
+f.write("Music="+(musvolume+100)+"
+Menu="+(menuvolume+100)+"
+Languaje="+languaje+"
+Reflection="+time);
 f.close();
 }
 
-string loading_pack(string password="")
+string load_sounds(string pack1="Sounds/", string pack2="password", bool pack3=true)
 {
-set_sound_storage("Sound.dat");
-set_sound_decryption_key(password, false);
+if(pack3==true)
+{
+set_sound_storage(pack1);
+set_sound_decryption_key(pack2, false);
 return "";
+}
+else
+return "Sound/";
 }
