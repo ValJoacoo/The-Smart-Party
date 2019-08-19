@@ -1,4 +1,12 @@
-#include "Includes.bgt"
+// Includes
+#include "Includes/config.bgt"
+#include "Includes/Dialog.bgt"
+#include "Includes/Dynamic_Menu_Pro.bgt"
+#include "Includes/Fade.bgt"
+#include "Includes/Main_menu.bgt"
+#include "Includes/Multilanguaje.bgt"
+#include "Includes/Other_functions.bgt"
+#include "Includes/Speak.bgt"
 
 void main()
 {
