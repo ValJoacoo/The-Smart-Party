@@ -18,12 +18,12 @@ Reflection="+time);
 f.close();
 }
 
-string load_sounds(string pack1="Sounds/", string pack2="password", bool pack3=true)
+string load_sounds(string filename, string password, bool mode)
 {
-if(pack3==true)
+if(mode)
 {
-set_sound_storage(pack1);
-set_sound_decryption_key(pack2, false);
+set_sound_decryption_key(password, false);
+set_sound_storage(filename);
 return "";
 }
 else
