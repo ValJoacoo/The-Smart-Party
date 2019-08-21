@@ -7,10 +7,10 @@ show_game_window(game_name+" - "+game_version+type_version);
 
 if(executing==false)
 {
-if(file_exists("Settings.dat")==false)
+if(file_exists("Settings.ini")==false)
 {
-pf.create("Settings.dat");
-f.open("Settings.dat", "w");
+pf.create("Settings.ini");
+f.open("Settings.ini", "w");
 f.write("Music=80
 Menu=90
 Languaje=English
@@ -19,7 +19,7 @@ f.close();
 pf.close();
 }
 
-f.open("Settings.dat", "r");
+f.open("Settings.ini", "r");
 config=string_split(f.read(), "\r\n =", false);
 musvolume=(string_to_number(config[1])-100);
 menuvolume=(string_to_number(config[3])-100);
@@ -103,7 +103,6 @@ void game()
 if(qtime.elapsed>0) qtime.restart();
 menu_position=0;
 
-
 f.open("Questions/"+languaje+".txt", "r");
 lines=string_split(f.read(), "\r\n", false);
 quest=string_split(lines[random(0, lines.length()-1)], "/", false);
@@ -112,7 +111,7 @@ correct=quest[1];
 quest.remove_at(0);
 options.resize(4);
 
-for(int x=0; x<options.length(); x++)
+for(x=0; x<options.length(); x++)
 {
 options[x]=" ";
 }
@@ -121,7 +120,6 @@ while(true)
 if(options[0]!=" "&&options[1]!=" "&&options[2]!=" "&&options[3]!=" ")
 break;
 y=random(0, quest.length()-1);
-z;
 while(true)
 {
 z=random(0, 3);
