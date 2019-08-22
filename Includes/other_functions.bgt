@@ -10,7 +10,7 @@ exit();
 
 void save_settings()
 {
-f.open("Settings.dat", "w");
+f.open("Settings.ini", "w");
 f.write("Music="+(musvolume+100)+"
 Menu="+(menuvolume+100)+"
 Languaje="+languaje+"
