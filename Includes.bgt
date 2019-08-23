@@ -6,7 +6,7 @@
 #include "Includes/Other_functions.bgt"
 #include "Includes/Speak.bgt"
 const string game_name="The Smart Party";
-const string game_version="0.14.3.2";
+const string game_version="0.15.2";
 const string type_version="Beta";
 const string set_pack="Sound.dat";
 const string decript_pack="decrypt";
@@ -28,8 +28,10 @@ string sn=load_sounds(set_pack, decript_pack, true);
 string text;
 string correct;
 string languaje="English";
-int musvolume=-20;
+int allvolume=100;
 int menuvolume=-10;
+int musvolume=-20;
+
 int menu_position;
 uint x;
 uint y;

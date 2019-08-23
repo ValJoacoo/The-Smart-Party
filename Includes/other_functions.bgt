@@ -5,16 +5,14 @@ speak(lang.get_value("Saving the last configuration change")+" ...");
 else
 speak(lang.get_value("Exiting")+" ...");
 fade(music, -50, 25);
+generate_profile("Log/Statistics.log");
 exit();
 }
 
 void save_settings()
 {
 f.open("Settings.ini", "w");
-f.write("Music="+(musvolume+100)+"
-Menu="+(menuvolume+100)+"
-Languaje="+languaje+"
-Reflection="+time);
+f.write("All="+(allvolume+100)+"\r\nMusic="+(musvolume+100)+"\r\nMenu="+(menuvolume+100)+"\r\nReflection="+time+"\r\nLanguaje="+languaje);
 f.close();
 }
 
