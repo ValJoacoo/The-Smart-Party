@@ -1,0 +1,268 @@
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+Function: void lang_menu()
+
+Function: void options_menu()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: Illogical operation.
+
+Call stack size: 4
+
+Function: void game()
+
+Function: void game()
+
+Function: void main_menu()
+
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: Illogical operation.
+
+Call stack size: 4
+
+Function: void game()
+
+Function: void game()
+
+Function: void main_menu()
+
+Function: void main()
+
+
