@@ -2,6 +2,17 @@
 
 void main()
 {
+if(directory_exists("Log")==false)
+{
+if(directory_create("Log")==false)
+{
+alert("Error", "Huvo un error con el directorio log. Por favor contacta con el desarrollador.");
+exit();
+}
+}
+if(lang.set_file("Languajes/"+languaje+".lang")==false)
+exit_pro(25, modified_sets);
+
 set_error_output("Log/Errors.log");
 start_profiling();
 show_game_window(game_name+" - "+game_version+type_version);
