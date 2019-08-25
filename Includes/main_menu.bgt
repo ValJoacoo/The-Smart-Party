@@ -79,15 +79,15 @@ else if(tmenu==0)
 return;
 
 if(tmenu==1)
-time=10;
+time_config=10000;
 if(tmenu==2)
-time=15;
+time_config=15000;
 if(tmenu==3)
-time=20;
+time_config=20000;
 if(tmenu==4)
-time=25;
+time_config=25000;
 if(tmenu==5)
-time=30;
+time_config=30000;
 
 save_settings();
 modified_sets=true;

@@ -1,4 +1,4 @@
-Welcome=¡Bienvenido
+Welcome!=¡Bienvenido!
 MAIN MENU=MENÚ PRINCIPAL
 Start=Jugar
 Options=Opciones
@@ -9,9 +9,9 @@ OPTIONS MENU=MENÚ DE OPCIONES
 Choose languaje=Cambiar el idioma
 Reflection time=Tiempo de reflexión
 Go back=Volver
-Choose a languaje=Cambiar el idioma
+CHOOSE A LANGUAJE=Cambiar el idioma
 English=Inglés
-choose a reflection time=Cambiar el tiempo de reflexión
+CHOOSE A REFLECTION TIME=Cambiar el tiempo de reflexión
 This reply is correct=¡Tu respuesta es correcta
 This reply is incorrect=Tu respuesta es incorrecta
 secons remaining=segundos restantes

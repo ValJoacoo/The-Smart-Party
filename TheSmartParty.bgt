@@ -10,7 +10,19 @@
 
 void main()
 {
-set_error_output("Errors.log");
+if(directory_exists("Log")==false)
+{
+if(directory_create("Log")==false)
+{
+alert("Error", "Huvo un error con el directorio log. Por favor contacta con el desarrollador.");
+exit();
+}
+}
+if(lang.set_file("Languajes/"+languaje+".lang")==false)
+exit_pro(25, modified_sets);
+
+set_error_output("Log/Errors.log");
+start_profiling();
 show_game_window(game_name+" - "+game_version+type_version);
 
 if(executing==false)
@@ -19,20 +31,18 @@ if(file_exists("Settings.ini")==false)
 {
 pf.create("Settings.ini");
 f.open("Settings.ini", "w");
-f.write("Music=80
-Menu=90
-Languaje=English
-Reflection=15");
+f.write("All=100\r\nMenu=100\r\nMusic=100\r\nReflection=15\r\nLanguaje=English");
 f.close();
 pf.close();
 }
 
 f.open("Settings.ini", "r");
 config=string_split(f.read(), "\r\n =", false);
-musvolume=(string_to_number(config[1])-100);
-menuvolume=(string_to_number(config[3])-100);
-languaje=config[5];
+allvolume=string_to_number(config[1])-100;
+musvolume=string_to_number(config[3])-100;
+menuvolume=string_to_number(config[5])-100;
 time_config=string_to_number(config[7])*1000;
+languaje=config[9];
 f.close();
 
 if(lang.set_file("Languajes/"+languaje+".lang")==false)
@@ -42,6 +52,7 @@ music.load(sn+"music"+random(1, 3)+".wav"); music.volume=0;
 movement.load(sn+"menu1.wav"); movement.volume=menuvolume;
 enter.load(sn+"menu2.wav"); enter.volume=menuvolume;
 wrap.load(sn+"menu3.wav"); wrap.volume=menuvolume;
+set_sound_master_volume(allvolume);
 
 music.play_looped();
 wait(1000);
@@ -101,6 +112,24 @@ save_settings();
 
 movement.volume=menuvolume;
 movement.play();
+}
+if(key_down(KEY_F5))
+{
+allvolume--;
+if(allvolume<-100) allvolume=-100;
+modified_sets=true;
+save_settings();
+
+set_sound_master_volume(allvolume);
+}
+if(key_down(KEY_F6))
+{
+allvolume++;
+if(allvolume>-1) allvolume=-1;
+modified_sets=true;
+save_settings();
+
+set_sound_master_volume(allvolume);
 }
 }
 exit_pro(25, modified_sets);
