@@ -2,25 +2,37 @@ int option;
 
 class dynamic_menu_pro
 {
-string[] item;
-int p=0;
-bool wrap=false;
-sound music;
-sound w;
-sound r;
 sound m;
+sound r;
+sound w;
+string[] item;
+string[] item_name;
+int stance=0;
+bool wrap=false;
 
-void add_option(string text, bool activate=true)
+void add_option(string text, string name=text)
 {
-if(activate==true)
 item.insert_last(text);
+item_name.insert_last(name);
 }
-void add_music(string rute, int volume=-5)
+
+int get_item_name(string name="")
 {
-music.load(rute);
-music.volume=volume;
-music.play_looped();
+for(uint items=0; items<item.length(); items++)
+{
+if(name!=item_name[items])
+continue;
+else
+return option=items+1;
 }
+return option;
+}
+
+int selected_option()
+{
+return option;
+}
+
 void add_wrap_sound(string rute, int volume=-5)
 {
 w.load(rute);
@@ -41,72 +53,78 @@ int start(string text, bool audio=false)
 {
 if(audio==true)
 {
-sound aud;
-aud.load(text);
-aud.play();
+sound audio_menu;
+audio_menu.load(text);
+audio_menu.volume=0;
+audio_menu.play();
 }
 else
 {
-wait(100);
+wait(125);
 speak(text);
 }
+
 while(true)
 {
 wait(5);
 
 if(key_pressed(KEY_UP))
 {
-p-=1;
-if(p==-1)
+stance--;
+if(stance<0)
 {
 if(wrap==false)
 {
-p=0;
+stance=0;
 w.play();
 }
 else
-p=item.length()-1;
+stance=item.length()-1;
 }
 else
 m.play();
-speak(item[p]);
+speak(item[stance]);
 }
 
 if(key_pressed(KEY_DOWN))
 {
-p+=1;
-if(p==item.length())
+stance++;
+if(stance>item.length()-1)
 {
 if(wrap==false)
 {
-p=item.length()-1;
+stance=item.length()-1;
 w.play();
 }
 else
-p=0;
+stance=0;
 }
 else
 m.play();
-speak(item[p]);
+speak(item[stance]);
 }
 
 if(key_pressed(KEY_RETURN))
 {
 r.play();
-return option=p+1;
+return option=stance+1;
 }
 
-if(key_down(KEY_LMENU)&&key_pressed(KEY_F4) or key_down(KEY_RMENU)&&key_pressed(KEY_F4))
+if(key_down(KEY_LMENU) or key_down(KEY_RMENU))
+{
+if(key_pressed(KEY_F4))
 {
 return option=-1;
+}
 }
 if(key_pressed(KEY_ESCAPE))
 {
 return option=0;
 }
 
-wait(5);
+// Close to while.
 }
 return option=0;
 }
+
 }

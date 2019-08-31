@@ -113,7 +113,7 @@ movement.play();
 if(key_down(KEY_F5))
 {
 allvolume--;
-if(allvolume<--00) allvolume=-100;
+if(allvolume<-100) allvolume=-100;
 save_settings();
 
 set_sound_master_volume(allvolume);

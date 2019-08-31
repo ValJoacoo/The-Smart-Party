@@ -22,7 +22,7 @@ string[] options(4);
 string[] quest;
 string[] question_menu;
 string correct;
-string languaje="English";
+string language="English";
 string sn=load_sounds(set_pack, decript_pack, true);
 string text;
 int allvolume=100;

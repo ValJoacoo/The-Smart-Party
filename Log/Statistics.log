@@ -1,0 +1,11 @@
+Profile Results
+
+
+Total execution time: 4718 ms
+
+Number of functions called: 4
+
+void main(): 3272 ms (69.35%)
+void fade(sound@, int, int): 1306 ms (27.68%)
+void save_settings(): 138 ms (2.92%)
+int auto_select_screen_reader(): 2 ms (0.04%)
