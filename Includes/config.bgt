@@ -1,10 +1,4 @@
-#include "Includes/Dialog.bgt"
-#include "Includes/Dynamic_Menu_Pro.bgt"
-#include "Includes/Fade.bgt"
-#include "Includes/Main_menu.bgt"
-#include "Includes/Multilanguaje.bgt"
-#include "Includes/Other_functions.bgt"
-#include "Includes/Speak.bgt"
+// Configurations
 const string game_name="The Smart Party";
 const string game_version="0.15.2";
 const string type_version="Beta";
