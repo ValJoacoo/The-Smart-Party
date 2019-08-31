@@ -12,8 +12,10 @@ exit();
 void save_settings()
 {
 f.open("Settings.ini", "w");
-f.write("All="+(allvolume+100)+"\r\nMusic="+(musvolume+100)+"\r\nMenu="+(menuvolume+100)+"\r\nReflection="+(time_config/1000)+"\r\nLanguaje="+languaje);
+f.write("All="+(allvolume+100)+"\r\nMusic="+(musvolume+100)+"\r\nMenu="+(menuvolume+100)+"\r\nReflection="+(time_config/1000)+"\r\nLanguage="+language);
 f.close();
+
+changed_settings=true;
 }
 
 string load_sounds(string filename, string password, bool mode)

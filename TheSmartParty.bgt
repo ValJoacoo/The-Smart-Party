@@ -1,25 +1,26 @@
-// Includes
+// Includes.
 #include "Includes/config.bgt"
 #include "Includes/Dialog.bgt"
 #include "Includes/Dynamic_Menu_Pro.bgt"
 #include "Includes/Fade.bgt"
 #include "Includes/Main_menu.bgt"
-#include "Includes/Multilanguaje.bgt"
+#include "Includes/Multilanguage.bgt"
 #include "Includes/Other_functions.bgt"
 #include "Includes/Speak.bgt"
 
+// Main function: This includes the reading of the settings, optimal start of the program and the main loop where various adjustments can be made at the user level.
 void main()
 {
 if(directory_exists("Log")==false)
 {
 if(directory_create("Log")==false)
 {
-alert("Error", "Huvo un error con el directorio log. Por favor contacta con el desarrollador.");
+alert("Error", lang.get_value("There was an error with the log directory. Please contact the developer to solve the problem."));
 exit();
 }
 }
-if(lang.set_file("Languajes/"+languaje+".lang")==false)
-exit_pro(25, modified_sets);
+if(lang.set_file("Languages/"+language+".lang")==false)
+exit_pro(25, changed_settings);
 
 set_error_output("Log/Errors.log");
 start_profiling();
@@ -31,7 +32,7 @@ if(file_exists("Settings.ini")==false)
 {
 pf.create("Settings.ini");
 f.open("Settings.ini", "w");
-f.write("All=100\r\nMenu=100\r\nMusic=100\r\nReflection=15\r\nLanguaje=English");
+f.write("All=100\r\nMenu=100\r\nMusic=100\r\nReflection=15\r\nLanguage=English");
 f.close();
 pf.close();
 }
@@ -42,11 +43,11 @@ allvolume=string_to_number(config[1])-100;
 musvolume=string_to_number(config[3])-100;
 menuvolume=string_to_number(config[5])-100;
 time_config=string_to_number(config[7])*1000;
-languaje=config[9];
+language=config[9];
 f.close();
 
-if(lang.set_file("Languajes/"+languaje+".lang")==false)
-exit_pro(25, modified_sets);
+if(lang.set_file("Languages/"+language+".lang")==false)
+exit_pro(25, changed_settings);
 
 music.load(sn+"music"+random(1, 3)+".wav"); music.volume=0;
 movement.load(sn+"menu1.wav"); movement.volume=menuvolume;
@@ -82,22 +83,19 @@ if(key_down(KEY_F1))
 musvolume--;
 if(musvolume<=-100) musvolume=-100;
 music.volume=musvolume;
-modified_sets=true;
 save_settings();
 }
 if(key_down(KEY_F2))
 {
 musvolume++;
-if(musvolume>-1) musvolume=-1;
+if(musvolume>0) musvolume=0;
 music.volume=musvolume;
-modified_sets=true;
 save_settings();
 }
 if(key_down(KEY_F3))
 {
 menuvolume--;
 if(menuvolume<-100) menuvolume=-100;
-modified_sets=true;
 save_settings();
 
 movement.volume=menuvolume;
@@ -106,8 +104,7 @@ movement.play();
 if(key_down(KEY_F4))
 {
 menuvolume++;
-if(menuvolume>-1) menuvolume=-1;
-modified_sets=true;
+if(menuvolume>0) menuvolume=0;
 save_settings();
 
 movement.volume=menuvolume;
@@ -116,8 +113,7 @@ movement.play();
 if(key_down(KEY_F5))
 {
 allvolume--;
-if(allvolume<-100) allvolume=-100;
-modified_sets=true;
+if(allvolume<--00) allvolume=-100;
 save_settings();
 
 set_sound_master_volume(allvolume);
@@ -125,24 +121,31 @@ set_sound_master_volume(allvolume);
 if(key_down(KEY_F6))
 {
 allvolume++;
-if(allvolume>-1) allvolume=-1;
-modified_sets=true;
+if(allvolume>0) allvolume=0;
 save_settings();
 
 set_sound_master_volume(allvolume);
 }
 }
-exit_pro(25, modified_sets);
+exit_pro(25, changed_settings);
 }
 
+// Game function: It contains the algorithm to set the random options, the menu of questions and the verification of the answers.
 void game()
 {
 if(qtime.elapsed>0) qtime.restart();
 menu_position=0;
 
-f.open("Questions/"+languaje+".txt", "r");
+f.open("Questions/"+language+".txt", "r");
 lines=string_split(f.read(), "\r\n", false);
-quest=string_split(lines[random(0, lines.length()-1)], "/", false);
+
+while(line1==line2)
+{
+line1=random(0, lines.length()-1);
+}
+line2=line1;
+
+quest=string_split(lines[line1], "/", false);
 text=quest[0];
 correct=quest[1];
 quest.remove_at(0);
@@ -217,7 +220,7 @@ break;
 if(key_down(KEY_LMENU) or key_down(KEY_RMENU))
 {
 if(key_pressed(KEY_F4))
-exit_pro(25, modified_sets);
+exit_pro(25, changed_settings);
 if(key_pressed(KEY_T))
 speak(options[0]);
 }
@@ -231,6 +234,7 @@ speak(lang.get_value("You can not leave the game!"));
 if(options[menu_position]==correct)
 dialog(lang.get_value("This reply is correct!"));
 else
-dialog(lang.get_value("This reply is incorrect."));
+dialog(lang.get_value("This reply is incorrect!"));
+
 game();
 }

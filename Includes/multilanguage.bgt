@@ -1,4 +1,4 @@
-class multilanguaje
+class multilanguage
 {
 private string[] lines;
 private string[] values;

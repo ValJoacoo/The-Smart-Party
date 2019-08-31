@@ -10,7 +10,7 @@ m.add_option(lang.get_value("Exit"));
 int mmenu=m.start(lang.get_value("MAIN MENU"), false);
 
 if(mmenu==-1 or mmenu==3)
-exit_pro(25, modified_sets);
+exit_pro(25, changed_settings);
 else if(mmenu==0)
 main();
 
@@ -26,13 +26,13 @@ dynamic_menu_pro m;
 m.add_movement_sound(sn+"menu1.wav", menuvolume);
 m.add_return_sound(sn+"menu2.wav", menuvolume);
 m.add_wrap_sound(sn+"menu3.wav", menuvolume);
-m.add_option(lang.get_value("Choose languaje"));
+m.add_option(lang.get_value("Choose language"));
 m.add_option(lang.get_value("Reflection time"));
 m.add_option(lang.get_value("Go back"));
 int omenu=m.start(lang.get_value("OPTIONS MENU"), false);
 
 if(omenu==-1)
-exit_pro(25, modified_sets);
+exit_pro(25, changed_settings);
 else if(omenu==0 or omenu==3)
 main_menu();
 
@@ -47,20 +47,19 @@ void lang_menu()
 dynamic_menu_pro m;
 m.add_option(lang.get_value("English"));
 m.add_option(lang.get_value("Español"));
-int lmenu=m.start(lang.get_value("CHOOSE A LANGUAJE"), false);
+int lmenu=m.start(lang.get_value("CHOOSE A LANGUAGE"), false);
 
 if(lmenu==-1)
-exit_pro(25, modified_sets);
+exit_pro(25, changed_settings);
 else if(lmenu==0)
 return;
 
 if(lmenu==1)
-languaje="English";
+language="English";
 if(lmenu==2)
-languaje="Spanish";
+language="Spanish";
 
 save_settings();
-modified_sets=true;
 }
 
 void time_menu()
@@ -74,7 +73,7 @@ m.add_option("30");
 int tmenu=m.start(lang.get_value("CHOOSE A REFLECTION TIME"), false);
 
 if(tmenu==-1)
-exit_pro(25, modified_sets);
+exit_pro(25, changed_settings);
 else if(tmenu==0)
 return;
 
@@ -90,5 +89,4 @@ if(tmenu==5)
 time_config=30000;
 
 save_settings();
-modified_sets=true;
 }
