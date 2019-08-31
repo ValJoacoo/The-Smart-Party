@@ -19,7 +19,7 @@ alert("Error", lang.get_value("There was an error with the log directory. Please
 exit();
 }
 }
-if(lang.set_file("Languages/"+language+".lang")==false)
+if(lang.set_file("Languages/"+language)==false)
 exit_pro(25, changed_settings);
 
 set_error_output("Log/Errors.log");
