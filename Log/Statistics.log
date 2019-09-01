@@ -1,11 +1,15 @@
 Profile Results
 
 
-Total execution time: 4718 ms
+Total execution time: 27053 ms
 
-Number of functions called: 4
+Number of functions called: 8
 
-void main(): 3272 ms (69.35%)
-void fade(sound@, int, int): 1306 ms (27.68%)
-void save_settings(): 138 ms (2.92%)
-int auto_select_screen_reader(): 2 ms (0.04%)
+int dynamic_menu_pro::start(string, bool = false): 15650 ms (57.85%)
+bool multilanguage::set_file(string): 7387 ms (27.31%)
+void main(): 2670 ms (9.87%)
+void fade(sound@, int, int): 1328 ms (4.91%)
+int auto_select_screen_reader(): 7 ms (0.03%)
+bool speak(string, bool = true): 7 ms (0.03%)
+void save_settings(): 3 ms (0.01%)
+void dynamic_menu_pro::add_wrap_sound(string, int = - 5): 1 ms (0%)

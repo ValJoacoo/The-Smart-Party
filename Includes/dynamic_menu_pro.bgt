@@ -10,27 +10,19 @@ string[] item_name;
 int stance=0;
 bool wrap=false;
 
-void add_option(string text, string name=text)
+void add_option(string text, string name="")
 {
 item.insert_last(text);
 item_name.insert_last(name);
 }
 
-int get_item_name(string name="")
+string get_item_name(int number)
 {
-for(uint items=0; items<item.length(); items++)
+if(number<1 or number==item.length())
 {
-if(name!=item_name[items])
-continue;
-else
-return option=items+1;
+return "";
 }
-return option;
-}
-
-int selected_option()
-{
-return option;
+return item_name[number-1];
 }
 
 void add_wrap_sound(string rute, int volume=-5)

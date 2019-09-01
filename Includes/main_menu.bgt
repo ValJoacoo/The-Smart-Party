@@ -50,23 +50,27 @@ if(langfiles.length()>0)
 {
 for(int i=0; i<langfiles.length(); i++)
 {
-m.add_option(string_replace(langfiles[i], ".lang", "", true), langfiles[i]);
+m.add_option(string_replace(langfiles[i], ".lang", "", true), string_replace(langfiles[i], ".lang", "", true));
 }
 m.add_option(lang.get_value("Cancel"), "cancel");
 }
 int lmenu=m.start(lang.get_value("CHOOSE A LANGUAGE"), false);
 if(lmenu==-1)
 {
-exit_pro(25, modified_sets);
+exit_pro(25, changed_settings);
 }
 else if(m.get_item_name(lmenu)=="cancel" || lmenu==0)
 {
+options_menu();
 return;
 }
 else
-lang =m.get_item_name(lmenu);
+{
+language =m.get_item_name(lmenu);
 save_settings();
-modified_sets=true;
+//alert("", language);
+options_menu();
+}
 }
 
 void time_menu()
