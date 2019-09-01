@@ -46,7 +46,7 @@ time_config=string_to_number(config[7])*1000;
 language=config[9];
 f.close();
 
-if(lang.set_file("Languages/"+language)==false)
+if(lang.set_file("Languages/"+language+".lang")==false)
 exit_pro(25, changed_settings);
 
 music.load(sn+"music"+random(1, 3)+".wav"); music.volume=0;

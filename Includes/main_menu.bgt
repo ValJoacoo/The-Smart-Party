@@ -59,18 +59,15 @@ if(lmenu==-1)
 {
 exit_pro(25, changed_settings);
 }
-else if(m.get_item_name(lmenu)=="cancel" || lmenu==0)
+if(m.get_item_name(lmenu)=="cancel" || lmenu==0)
 {
 options_menu();
-return;
 }
 else
-{
 language =m.get_item_name(lmenu);
 save_settings();
-//alert("", language);
+lang.set_file("Languages/"+language+".lang");
 options_menu();
-}
 }
 
 void time_menu()
