@@ -1,11 +1,10 @@
 void exit_pro(int milisecons=25, bool set=false)
 {
 if(set==true)
-speak(lang.get_value("Saving the last configuration change")+" ...");
-else
+speak(lang.get_value("Saving the last configuration change")+" ...", true);
+
 speak(lang.get_value("Exiting")+" ...");
 fade(music, -50, 25);
-generate_profile("Log/Statistics.log");
 exit();
 }
 
@@ -14,6 +13,18 @@ void save_settings()
 f.open("Settings.ini", "w");
 f.write("All="+(allvolume+100)+"\r\nMusic="+(musvolume+100)+"\r\nMenu="+(menuvolume+100)+"\r\nReflection="+(time_config/1000)+"\r\nLanguage="+language);
 f.close();
+
+if(lang.set_file("Languages/"+language+".lang")==false)
+{
+alert("Error", "There was an error trying to open the file [Languages/"+language+".lang]. Please contact the developers to solve the problem.");
+exit_pro(25, changed_settings);
+}
+
+set_sound_master_volume(allvolume);
+enter.volume=menuvolume;
+movement.volume=menuvolume;
+music.volume=musvolume;
+wrap.volume=menuvolume;
 
 changed_settings=true;
 }
