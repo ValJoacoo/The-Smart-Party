@@ -1,11 +1,1505 @@
 Engine error from function: bool sound::play() const
 
-Error: Illogical operation.
+Error: No valid resource associated.
 
-Call stack size: 1
+Call stack size: 5
 
-File: C:\Users\Joker\Desktop\the-smart-party\TheSmartParty.bgt
-Line: 111 (1)
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 5
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 101 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 7
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 7
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 7
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 77 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 7
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 77 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 7
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 71 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 7
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 7
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 7
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 77 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 7
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 77 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 7
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 101 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 9
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 9
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 77 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 9
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 9
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 9
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 77 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 9
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 101 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 89 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 77 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 77 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 77 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 77 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 77 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 77 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 95 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
+Function: void main()
+
+
+Engine error from function: bool sound::play() const
+
+Error: No valid resource associated.
+
+Call stack size: 11
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 101 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 57 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
 Function: void main()
 
 
@@ -13,32 +1507,54 @@ Engine error from function: bool sound::play() const
 
 Error: Illogical operation.
 
-Call stack size: 1
+Call stack size: 12
 
-File: C:\Users\Joker\Desktop\the-smart-party\TheSmartParty.bgt
-Line: 111 (1)
-Function: void main()
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Dynamic_Menu_Pro.bgt
+Line: 89 (1)
+Function: int dynamic_menu_pro::start(string, bool = false)
 
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 32 (1)
+Function: void options_menu()
 
-Engine error from function: bool sound::play() const
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
 
-Error: Illogical operation.
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
 
-Call stack size: 1
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
 
-File: C:\Users\Joker\Desktop\the-smart-party\TheSmartParty.bgt
-Line: 111 (1)
-Function: void main()
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
 
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 71 (1)
+Function: void lang_menu()
 
-Engine error from function: bool sound::play() const
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
 
-Error: Illogical operation.
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 64 (1)
+Function: void lang_menu()
 
-Call stack size: 1
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 40 (1)
+Function: void options_menu()
 
-File: C:\Users\Joker\Desktop\the-smart-party\TheSmartParty.bgt
-Line: 111 (1)
+File: D:\Programacion_bgt\The-Smart-Party\Includes\Main_menu.bgt
+Line: 20 (1)
+Function: void main_menu()
+
+File: D:\Programacion_bgt\The-Smart-Party\TheSmartParty.bgt
+Line: 77 (1)
 Function: void main()
 
 

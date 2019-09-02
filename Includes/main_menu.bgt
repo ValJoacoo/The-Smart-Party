@@ -44,22 +44,30 @@ time_menu();
 
 void lang_menu()
 {
+string[] langfiles=find_files("Languages/*.lang");
 dynamic_menu_pro m;
-m.add_option(lang.get_value("English"));
-m.add_option(lang.get_value("Español"));
+if(langfiles.length()>0)
+{
+for(int i=0; i<langfiles.length(); i++)
+{
+m.add_option(string_replace(langfiles[i], ".lang", "", true), string_replace(langfiles[i], ".lang", "", true));
+}
+m.add_option(lang.get_value("Cancel"), "cancel");
+}
 int lmenu=m.start(lang.get_value("CHOOSE A LANGUAGE"), false);
-
 if(lmenu==-1)
+{
 exit_pro(25, changed_settings);
-else if(lmenu==0)
-return;
-
-if(lmenu==1)
-language="English";
-if(lmenu==2)
-language="Spanish";
-
+}
+if(m.get_item_name(lmenu)=="cancel" || lmenu==0)
+{
+options_menu();
+}
+else
+language =m.get_item_name(lmenu);
 save_settings();
+lang.set_file("Languages/"+language+".lang");
+options_menu();
 }
 
 void time_menu()
