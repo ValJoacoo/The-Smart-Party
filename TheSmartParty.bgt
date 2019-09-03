@@ -26,24 +26,14 @@ exit();
 }
 }
 
-if(file_exists("Settings.ini")==false)
+if(file_exists(file_config)==false)
 {
-pf.create("Settings.ini");
-f.open("Settings.ini", "w");
+pf.create(file_config);
+f.open(file_config, "w");
 f.write("All=100\r\nMenu=90\r\nMusic=90\r\nReflection=15\r\nLanguage=English");
 f.close();
-pf.close();
 }
-
-f.open("Settings.ini", "r");
-config=string_split(f.read(), "\r\n =", false);
-allvolume=string_to_number(config[1])-100;
-musvolume=string_to_number(config[3])-100;
-menuvolume=string_to_number(config[5])-100;
-time_config=string_to_number(config[7])*1000;
-language=config[9];
-f.close();
-
+read_settings();
 music.load(sn+"music"+random(1, 3)+".wav"); music.volume=0;
 movement.load(sn+"menu1.wav"); movement.volume=menuvolume;
 enter.load(sn+"menu2.wav"); enter.volume=menuvolume;

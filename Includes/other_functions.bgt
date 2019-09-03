@@ -29,6 +29,41 @@ wrap.volume=menuvolume;
 changed_settings=true;
 }
 
+void read_settings()
+{
+string[] fiels;
+//string[] values;
+f.open(file_config, "r");
+config =f.read();
+f.close();
+fiels =string_split(config, "\r\n", true);
+for(int i=0; i<fiels.length(); i++)
+{
+string[] values =string_split(fiels[i], "=", false);
+if(values[0]=="All")
+{
+allvolume =string_to_number(values[1])-100;
+}
+if(values[0]=="Music")
+{
+musvolume = string_to_number(values[1])-100;
+}
+if(values[0]=="Menu")
+{
+menuvolume =string_to_number(values[1])-100;
+}
+if(values[0]=="Reflection")
+{
+time_config =string_to_number(values[1])*1000;
+}
+if(values[0]=="Language")
+{
+language =values[1];
+break;
+}
+}
+}
+
 string load_sounds(string filename, string password, bool mode)
 {
 if(mode)
