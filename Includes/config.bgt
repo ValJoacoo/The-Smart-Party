@@ -17,7 +17,7 @@ sound wrap;
 timer qtime;
 
 // Variables.
-string[] config;
+string config;
 string[] lines;
 string[] options(4);
 string[] quest;
