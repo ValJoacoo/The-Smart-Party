@@ -32,7 +32,7 @@ changed_settings=true;
 void read_settings()
 {
 string[] fiels;
-f.open(file_config, "r");
+f.open(config_file, "r");
 config =f.read();
 f.close();
 fiels =string_split(config, "\r\n", true);

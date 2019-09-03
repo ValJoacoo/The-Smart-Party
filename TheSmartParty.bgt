@@ -26,10 +26,10 @@ exit();
 }
 }
 
-if(file_exists(file_config)==false)
+if(file_exists(config_file)==false)
 {
-pf.create(file_config);
-f.open(file_config, "w");
+pf.create(config_file);
+f.open(config_file, "w");
 f.write("All=100\r\nMenu=90\r\nMusic=90\r\nReflection=15\r\nLanguage=English");
 f.close();
 }
