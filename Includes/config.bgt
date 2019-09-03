@@ -2,6 +2,7 @@
 const string game_name="The Smart Party";
 const string game_version="0.18.3";
 const string type_version="Beta";
+const string config_file="Settings.ini";
 const string set_pack="Sound.dat";
 const string decript_pack="decrypt";
 
@@ -16,7 +17,7 @@ sound wrap;
 timer qtime;
 
 // Variables.
-string[] config;
+string config;
 string[] lines;
 string[] options(4);
 string[] quest;
