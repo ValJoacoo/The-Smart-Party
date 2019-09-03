@@ -31,33 +31,35 @@ changed_settings=true;
 
 void read_settings()
 {
-string[] values;
+string[] fiels;
 f.open(file_config, "r");
-config=string_split(f.read(), "\r\n", false);
+config =f.read();
 f.close();
-for(int i=0; i<config.length(); i++)
+fiels =string_split(config, "\r\n", true);
+for(int i=0; i<fiels.length(); i++)
 {
-
+string[] values =string_split(fiels[i], "=", false);
+if(values[0]=="All")
+{
+allvolume =string_to_number(values[1])-100;
 }
-if(values.find("All")>-1)
+if(values[0]=="Music")
 {
-allvolume=string_to_number(values[1])-100;
+musvolume = string_to_number(values[1])-100;
 }
-if(values.find("Music")>-1)
+if(values[0]=="Menu")
 {
-musvolume=string_to_number(values[1])-100;
+menuvolume =string_to_number(values[1])-100;
 }
-if(values.find("Menu")>-1)
+if(values[0]=="Reflection")
 {
-menuvolume=string_to_number(values[1])-100;
+time_config =string_to_number(values[1])*1000;
 }
-if(values.find("Reflection")>-1)
+if(values[0]=="Language")
 {
-time_config=string_to_number(values[1])*1000;
+language =values[1];
+break;
 }
-if(values.find("Language")>-1)
-{
-language=values[1];
 }
 }
 
