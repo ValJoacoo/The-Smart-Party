@@ -1,7 +1,10 @@
 void exit_pro(int milisecons=25, bool set=false)
 {
 if(set==true)
-speak(lang.get_value("Saving the last configuration change")+" ...", true);
+{
+speak(lang.get_value("Saving the last configuration change")+" ...");
+wait(1500);
+}
 
 speak(lang.get_value("Exiting")+" ...");
 fade(music, -50, 25);
@@ -16,29 +19,29 @@ f.close();
 
 if(lang.set_file("Languages/"+language+".lang")==false)
 {
+hide_game_window();
 alert("Error", "There was an error trying to open the file [Languages/"+language+".lang]. Please contact the developers to solve the problem.");
 exit_pro(25, changed_settings);
 }
 
-set_sound_master_volume(allvolume);
 enter.volume=menuvolume;
 movement.volume=menuvolume;
 music.volume=musvolume;
 wrap.volume=menuvolume;
+set_sound_master_volume(allvolume);
 
 changed_settings=true;
 }
 
 void read_settings()
 {
-string[] fiels;
 f.open(config_file, "r");
-config =f.read();
+fiels=string_split(f.read(), "\r\n", false);
 f.close();
-fiels =string_split(config, "\r\n", true);
+
 for(int i=0; i<fiels.length(); i++)
 {
-string[] values =string_split(fiels[i], "=", false);
+values=string_split(fiels[i], "=", false);
 if(values[0]=="All")
 {
 allvolume =string_to_number(values[1])-100;
@@ -58,19 +61,20 @@ time_config =string_to_number(values[1])*1000;
 if(values[0]=="Language")
 {
 language =values[1];
-break;
 }
 }
 }
 
 string load_sounds(string filename, string password, bool mode)
 {
-if(mode)
+if(mode==true)
 {
 set_sound_decryption_key(password, false);
 set_sound_storage(filename);
 return "";
 }
 else
+{
 return "Sound/";
+}
 }
