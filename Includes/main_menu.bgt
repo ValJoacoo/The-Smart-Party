@@ -4,20 +4,28 @@ dynamic_menu_pro m;
 m.add_movement_sound(sn+"menu1.wav", menuvolume);
 m.add_return_sound(sn+"menu2.wav", menuvolume);
 m.add_wrap_sound(sn+"menu3.wav", menuvolume);
-m.add_option(lang.get_value("Start"));
-m.add_option(lang.get_value("Options"));
-m.add_option(lang.get_value("Exit"));
+m.add_option(lang.get_value("Start"), "start");
+m.add_option(lang.get_value("Options"), "options");
+m.add_option(lang.get_value("Exit"), "exit");
 int mmenu=m.start(lang.get_value("MAIN MENU"), false);
 
-if(mmenu==-1 or mmenu==3)
+if(mmenu==-1 or m.get_item_name(mmenu)=="exit")
+{
 exit_pro(25, changed_settings);
+}
 else if(mmenu==0)
+{
 main();
+}
 
-if(mmenu==1)
+if(m.get_item_name(mmenu)=="start")
+{
 game();
-if(mmenu==2)
+}
+if(m.get_item_name(mmenu)=="options")
+{
 options_menu();
+}
 }
 
 void options_menu()
@@ -26,75 +34,87 @@ dynamic_menu_pro m;
 m.add_movement_sound(sn+"menu1.wav", menuvolume);
 m.add_return_sound(sn+"menu2.wav", menuvolume);
 m.add_wrap_sound(sn+"menu3.wav", menuvolume);
-m.add_option(lang.get_value("Choose language"));
-m.add_option(lang.get_value("Reflection time"));
-m.add_option(lang.get_value("Go back"));
+m.add_option(lang.get_value("Choose language"), "language");
+m.add_option(lang.get_value("Reflection time"), "reflection");
+m.add_option(lang.get_value("Go back"), "back");
 int omenu=m.start(lang.get_value("OPTIONS MENU"), false);
 
 if(omenu==-1)
+{
 exit_pro(25, changed_settings);
-else if(omenu==0 or omenu==3)
+}
+else if(omenu==0 or m.get_item_name(omenu)=="back")
+{
 main_menu();
+}
 
-if(omenu==1)
+if(m.get_item_name(omenu)=="language")
+{
 lang_menu();
-if(omenu==2)
+}
+if(m.get_item_name(omenu)=="reflection")
+{
 time_menu();
+}
 }
 
 void lang_menu()
 {
-string[] langfiles=find_files("Languages/*.lang");
 dynamic_menu_pro m;
-if(langfiles.length()>0)
+
+if(language_files.length()>0)
 {
-for(int i=0; i<langfiles.length(); i++)
+for(x=0; x<language_files.length(); x++)
 {
-m.add_option(lang.get_value(string_replace(langfiles[i], ".lang", "", true)), string_replace(langfiles[i], ".lang", "", true));
+m.add_option(lang.get_value(string_replace(language_files[x], ".lang", "", true)), string_replace(language_files[x], ".lang", "", true));
 }
 m.add_option(lang.get_value("Cancel"), "cancel");
 }
 int lmenu=m.start(lang.get_value("CHOOSE A LANGUAGE"), false);
+
 if(lmenu==-1)
 {
 exit_pro(25, changed_settings);
 }
-if(m.get_item_name(lmenu)=="cancel" || lmenu==0)
+if(lmenu==0 or m.get_item_name(lmenu)=="cancel")
 {
 options_menu();
 }
+
 else
+{
 language =m.get_item_name(lmenu);
+}
+
 save_settings();
-lang.set_file("Languages/"+language+".lang");
 options_menu();
 }
 
 void time_menu()
 {
 dynamic_menu_pro m;
-m.add_option("10");
-m.add_option("15");
-m.add_option("20");
-m.add_option("25");
-m.add_option("30");
+
+for(x=10; x<45; x+=5)
+{
+m.add_option(x+lang.get_value(" secons"), x);
+}
+m.add_option(lang.get_value("Cancel"), "cancel");
 int tmenu=m.start(lang.get_value("CHOOSE A REFLECTION TIME"), false);
 
 if(tmenu==-1)
+{
 exit_pro(25, changed_settings);
-else if(tmenu==0)
-return;
+}
+if(tmenu==0 or m.get_item_name(tmenu)=="cancel")
+{
+options_menu();
+}
 
-if(tmenu==1)
-time_config=10000;
-if(tmenu==2)
-time_config=15000;
-if(tmenu==3)
-time_config=20000;
-if(tmenu==4)
-time_config=25000;
-if(tmenu==5)
-time_config=30000;
+else
+{
+time_config=string_to_number(m.get_item_name(tmenu))*1000;
+}
 
 save_settings();
+options_menu();
 }
