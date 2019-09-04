@@ -1,6 +1,6 @@
 // General configurations.
 const string game_name="The Smart Party";
-const string game_version="0.18.3";
+const string game_version="0.21.2";
 const string type_version="Beta";
 const string config_file="Settings.ini";
 const string set_pack="Sound.dat";
@@ -17,11 +17,13 @@ sound wrap;
 timer qtime;
 
 // Variables.
-string config;
+string[] fiels;
+string[] language_files=find_files("Languages/*.lang");
 string[] lines;
 string[] options(4);
 string[] quest;
 string[] question_menu;
+string[] values;
 string correct;
 string language="English";
 string sn=load_sounds(set_pack, decript_pack, true);
@@ -30,12 +32,12 @@ int allvolume=100;
 int menu_position;
 int menuvolume=0;
 int musvolume=0;
-uint time;
 uint time_config;
 uint line1;
 uint line2;
-uint x;
-uint y;
-uint z;
+uint x=0;
+uint y=0;
+uint z=0;
+
 bool executing=false;
 bool changed_settings=false;
