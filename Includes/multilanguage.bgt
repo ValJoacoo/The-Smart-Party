@@ -15,8 +15,7 @@ this.filename=filename;
 bool opening=f.open(filename, "r");
 if(opening==false)
 {
-alert("Error", "There was an error opening the file "+filename+". Contact the developer.");
-return this.filename!="";
+return false;
 }
 else
 {
