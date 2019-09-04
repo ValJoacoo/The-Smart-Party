@@ -12,7 +12,6 @@
 void main()
 {
 set_error_output("Log/Errors.log");
-show_game_window(game_name+" - "+game_version+type_version);
 
 // If executing has the value true is that the main function has already been called. If it has the false value we verify that everything works correctly before making the program run.
 if(executing==false)
@@ -34,25 +33,30 @@ f.write("All=100\r\nMenu=90\r\nMusic=90\r\nReflection=15\r\nLanguage=English");
 f.close();
 }
 read_settings();
+
 music.load(sn+"music"+random(1, 3)+".wav"); music.volume=0;
 movement.load(sn+"menu1.wav"); movement.volume=menuvolume;
 enter.load(sn+"menu2.wav"); enter.volume=menuvolume;
 wrap.load(sn+"menu3.wav"); wrap.volume=menuvolume;
 set_sound_master_volume(allvolume);
 
+if(lang.set_file("Languages/"+language+".lang")==false)
+{
+alert("Error", "There was an error trying to open the file [Languages/"+language+".lang]. Please contact the developers to solve the problem.");
+exit();
+}
+else
+{
+show_game_window(game_name+" - "+game_version+type_version);
 music.play_looped();
 wait(1000);
 fade(music, musvolume, 25);
-speak(lang.get_value("Welcome")+"!");
+speak(lang.get_value("Welcome!"));
+}
 
 executing=true;
 }
-if(lang.set_file("Languages/"+language+".lang")==false)
-{
-hide_game_window();
-alert("Error", "There was an error trying to open the file [Languages/"+language+".lang]. Please contact the developers to solve the problem.");
-exit_pro(25, changed_settings);
-}
+
 // Open the main loop.
 while(true)
 {
@@ -67,6 +71,8 @@ if(key_pressed(KEY_P))
 game();
 if(key_pressed(KEY_M))
 main_menu();
+if(key_pressed(KEY_L))
+lang_menu();
 }
 else if(key_pressed(KEY_ESCAPE)) break;
 
@@ -124,7 +130,10 @@ exit_pro(25, changed_settings);
 // Game function: It includes the reading of the questions in the file corresponding to the configured language, an algorithm to put the answers in a random order, a verification so that they are not repeated and the menu to show the question and possible answers.
 void game()
 {
-if(qtime.elapsed>0) qtime.restart();
+if(qtime.elapsed>0)
+{
+qtime.restart();
+}
 menu_position=0;
 
 f.open("Questions/"+language+".txt", "r");
@@ -136,7 +145,7 @@ line1=random(0, lines.length()-1);
 }
 line2=line1;
 
-// We open and read the file with the questions, choose a line (Question) at random and verify that it is not the same as the previous one. Next we're going to mix the answers and save all the values in the matrix [options].
+// We open and read the file with the questions, choose a line (Question) at random and verify that it is not the same as the previous one. Next we're going to mix the answers and save all the values in the array [options].
 
 quest=string_split(lines[line1], "/", false);
 text=quest[0];
@@ -148,16 +157,21 @@ for(x=0; x<options.length(); x++)
 {
 options[x]=" ";
 }
+
 while(true)
 {
 if(options[0]!=" "&&options[1]!=" "&&options[2]!=" "&&options[3]!=" ")
+{
 break;
+}
 y=random(0, quest.length()-1);
 while(true)
 {
 z=random(0, 3);
 if(options[z]==" ")
+{
 break;
+}
 }
 options[z]=quest[y];
 quest.remove_at(y);
@@ -177,7 +191,7 @@ wait(5);
 // Verify that the response time has not been exceeded.
 if(qtime.elapsed>=time_config)
 {
-dialog(lang.get_value("The "+(time_config/1000)+" seconds have run out! You have to be faster next time."));
+dialog(lang.get_value("The ")+(time_config/1000)+lang.get_value(" seconds have run out! You have to be faster next time."));
 main();
 }
 
@@ -210,30 +224,46 @@ else if(key_pressed(KEY_RETURN))
 {
 enter.play();
 if(menu_position!=0)
+{
 break;
+}
 }
 
 // Commands with the ALT key.
 if(key_down(KEY_LMENU) or key_down(KEY_RMENU))
 {
 if(key_pressed(KEY_F4))
+{
 exit_pro(25, changed_settings);
+}
 if(key_pressed(KEY_T))
-speak(options[0]);
+{
+speak(text);
 }
 if(key_pressed(KEY_SPACE))
+{
 speak(options[menu_position]);
+}
+}
 if(key_pressed(KEY_T))
+{
 speak(round((time_config-qtime.elapsed)/1000, 0)+lang.get_value(" secons remaining."));
+}
 else if(key_pressed(KEY_ESCAPE))
+{
 speak(lang.get_value("You can not leave the game!"));
+}
 
 // Close the loop. It is then checked whether the selected answer is correct.
 }
 if(options[menu_position]==correct)
+{
 dialog(lang.get_value("This reply is correct!"));
+}
 else
+{
 dialog(lang.get_value("This reply is incorrect!"));
+}
 
 game();
 }
