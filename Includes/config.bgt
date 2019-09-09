@@ -41,3 +41,4 @@ uint z=0;
 
 bool executing=false;
 bool changed_settings=false;
+bool stop_game=false;
