@@ -1,0 +1,52 @@
+MANUAL DE USUARIO
+
+En este corto pero eficaz manual de usuario podrás, de forma rápida, aprender a usar y controlar todos los aspectos de The Smart Party para que puedas jugar cuando quieras y como quieras. Para obtener información de desarrolladores, por favor leerse la documentación correspondiente en donde se detallan los aspectos internos del programa.
+
+¿QUÉ ES?
+The Smart Party es un sencillo audiojuego nacido en el año 2019, desarrollado por Jkrweb junto con algunos colaboradores y finalmente liberado bajo la GNU General Public License, versión 2.0. El mismo toma ideas y conceptos de otros juegos  de su y otros estilos, para ofrecer a los usuarios momentos de diversión en donde quieran y cuando quieran.
+Actualmente The Smart Party cuenta con un sistema de juego de preguntas y respuestas, donde se desplegará un menú en el cual deberás leer y analizar la pregunta que se te haga para poder seleccionar la respuesta que creas correcta entre las disponibles. Claro ... ¡Antes que se te agote el tiempo para pensar! Si se te agota este tiempo (Leer apartado Configuraciones del Programa) perderás la partida.
+El cliente ya tiene precargadas de manera interna las preguntas y respuestas, de modo que esa característica sumado a su formato portable, hagan que los jugadores puedan usarlo y disfrutar de un rato de diversión sin requerir de conexión a internet de forma obligatoria, al contrario de lo que sucede en otros de su estilo.
+El programa está en constante desarrollo y mantenimiento, para poder ignovar con cada nueva versión y a smi mismo mejorar sus diferentes aspectos y características, tanto para el usuario promedio como a nivel interno para desarrolladores.
+
+TECLAS Y COMANDOS
+Aquí debajo se encuentra un listado con todas las teclas y comandos que serán de utilidad a la hora de usar el programa.
+* F1: En la pantalla principal del programa, esta tecla reduce el volumen de la música.
+* F2: En la pantalla principal del programa, esta tecla aumenta el volumen de la música.
+* F3: En la pantalla principal del programa, esta tecla reduce el volumen de los sonidos en menús.
+* F4: En la pantalla principal del programa, esta tecla aumenta el volumen de los sonidos en menús.
+* F5: En la pantalla principal del programa, esta tecla reduce el volumen general de la aplicación.
+* F6: En la pantalla principal del programa, esta tecla aumenta el volumen general de la aplicación.
+* Escape: En cualquier parte del programa, esta tecla regresará a la pantalla anterior. Si se usa en la pantalla principal la aplicación se cerrará, mientras que si se utiliza en el juego no tendrá efecto.
+* T: En el juego, esta tecla te dirá los segundos restantes para poder responder.
+* Alt+F4: En cualquier parte del programa, este comando cerrará la aplicación.
+* Alt+M: En la pantalla principal, este comando abrirá el menú.
+* Alt+P: En la pantalla principal, este comando comenzará el juego.
+* Alt+L: En la pantalla principal, este comando te abrirá el menú de idiomas.
+* Alt+Space: En el juego, este comando te vervalizará la opción sobre la que está el cursor.
+* Alt+T: En el juego, este comando te vervalizará la pregunta.
+* Alt+S: En el juego, este comando hará que des por finalizada la partida.
+
+CONFIGURACIONES DEL PROGRAMA
+Aquí debajo se detallan de forma breve las opciones disponibles en el respectivo menú, al cual se accede desde Pantalla principal > Menú principal > Menú de opciones.
+* Cambiar el idioma: Como su nombre indica, esta opción nos permitirá alternar el idioma del programa entre los que estén disponibles. Actualmente se encuentran disponibles los idiomas español e inglés.
+* Tiempo de reflexión: En esta opción, podremos cambiar el tiempo que tenemos para poder responder las preguntas que se nos hagan en el juego. Actualmente se puede elegir entre diez y cuarenta segundos.
+* Volver: Esta opción te devolverá a la pantalla anterior.
+
+FUNCIONAMIENTO DEL JUEGO
+Para poder arrancar, usar y jugar con la aplicación deberás hacer los siguientes pasos: 
+1. Si es la primera vez que inicias, en la pantalla principal del programa pulsa el comando Alt+L y configura tu idioma. Una vez hecho esto, es recomendable cambiar el tiempo de reflexión por el que sea de tu agrado.
+2. Si ya tienes todas tus preferencias seleccionadas correctamente, puedes usar alguna de las dos siguientes formas para iniciar el juego: 
+* En la pantalla principal, pulsa Alt+P.
+* En la pantalla principal, abre el menú principal y luego selecciona la opción Jugar.
+3. En caso de que hayas procedido bien, ahora se te desplegará un menú con una de las tantas preguntas y cuatro posibles respuestas mescladas en un órden aleatorio. Aquí deberás leer la consigna y presionar sobre la respuesta que creas correcta.
+4. El programa te pondrá una pantalla indicándote si has respondido bien o mal a la pregunta, en la cual tendrás que pulsar enter para abanzar a otra.
+5. Repetir los pasos 3 y 4, hasta cuando quieras abandonar el juego. Cuando esto pase, deberás presionar el comando Alt+S y responder a la pregunta. Luego del diálogo, volverás a la pantalla principal del programa.
+
+CRÉDITOS Y CONTACTO
+Para finalizar este breve manual de usuario, nos gustaría agradecer y mencionar a las personas que de alguna u otra manera colaboraron en el proyecto. Gracias a: 
+* Jkrweb: Desarrollador principal del proyecto.
+* Andriu Software: Colaborador principal en el desarrollo de código e ideas.
+* Potions and Snitches: Colaboradora en la traducción al inglés del programa.
+* Dalison: Colaborador con pequeñas ideas en los inicios del proyecto.
+Así mismo aquí debajo dejamos un corto listado con vías de contacto con los desarrolladores, para reportar errores, dar sugerencias u otros posibles motivos.
+*CONTACTO.
