@@ -244,6 +244,10 @@ if(key_pressed(KEY_SPACE))
 {
 speak(options[menu_position]);
 }
+if(key_pressed(KEY_S))
+{
+stop_game=true;
+}
 }
 if(key_pressed(KEY_T))
 {
@@ -265,5 +269,13 @@ else
 dialog(lang.get_value("This reply is incorrect!"));
 }
 
+if(stop_game==false)
+{
 game();
+}
+else
+{
+main();
+stop_game=false;
+}
 }
