@@ -1,6 +1,6 @@
 // General configurations.
 const string game_name="The Smart Party";
-const string game_version="0.21.2";
+const string game_version="1.0";
 const string type_version="Beta";
 const string config_file="Settings.ini";
 const string set_pack="Sound.dat";
