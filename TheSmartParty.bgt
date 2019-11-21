@@ -7,6 +7,10 @@
 #include "Includes/Multilanguage.bgt"
 #include "Includes/Other_functions.bgt"
 #include "Includes/Speak.bgt"
+/*
+#include "Lenguaje.dat"
+#include "Questions.dat"
+*/
 
 // Main function: It includes a check that everything works correctly and the main loop, where are the volume controls and those containing the ALT key.
 void main()
