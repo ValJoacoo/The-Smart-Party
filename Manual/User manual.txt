@@ -1,0 +1,59 @@
+USER'S MANUAL
+
+This document details the fundamentals of The Smart Party at the user level, so you can quickly learn how to use and enjoy the program.
+
+THE SMART PARTY
+
+The Smart Party (TSP) is an audio game of questions and answers developed by Jkrweb and Andi Software during the year 2019, being later released on the Github platform under the GNU General Public License in its version 2.0.
+
+Your page on that site can be visited here: 
+
+https://www.github.com/jkrweb/the-smart-party/
+
+Thanks to a simple system of questions preloaded internally within the program, {this can run anywhere as it does not require any Internet connection or installation. Soon changes will be made to it so that it can be updated automatically.
+
+
+
+PROGRAM CONTROLS
+
+Below is a list of all the keys and commands that may be useful when using the program.
+
+* F1: In the main program screen, this key reduces the volume of the music.
+* F2: In the main program screen, this key increases the volume of the music.
+* F3: In the main screen of the program, this key reduces the volume of the sounds in menus.
+* F4: In the main screen of the program, this key increases the volume of the sounds in menus.
+* F5: On the main program screen, this key reduces the overall volume of the application.
+* F6: On the main program screen, this key increases the overall volume of the application.
+* Escape: Anywhere in the program, this key will return to the previous screen. If it is used in the main screen the application will close, while if it is used in the game it will have no effect.
+* T: In the game, this key will tell you the remaining seconds to respond.
+* Alt+F4: Anywhere in the program, this command will close the application.
+* Alt+M: On the main screen, this command will open the menu.
+* Alt+P: On the main screen, this command will start the game.
+* Alt+L: On the main screen, this command will open the language menu.
+* Alt+Space: In the game, this command will verify the option the cursor is over.
+* Alt+T: In the game, this command will verify the question.
+
+
+
+PROGRAM OPTIONS
+
+Below is a brief detail of the options available in the respective menu, which is accessible from the main screen > Main menu > Options menu.
+
+* Change language: As its name indicates, this option will allow us to alternate the language of the program between those that are available.
+* Reflection time: In this option, we will be able to change the time we have to be able to answer the questions we are asked in the game.
+* Back: This option will return you to the previous screen.
+
+
+
+GAME PLAY
+
+In order to start the game, the following steps must be followed within the program: 
+
+1. If this is the first time you run the program, you will have to wait approximately one second until the program generates the configuration file. Once this is done, press the command alt+L and adjust the language of preference.
+
+2. Once the language has been selected, it is recommended to modify the other options according to the user's taste.  When everything is set up correctly, you must exit and enter the program for the changes to be saved.
+
+3. Again on the main screen, we can start the game in two different ways that are: 
+
+* Using the command alt+P, which will start it directly.
+* Pressing the command alt+M and pressing the option "Play".
