@@ -1,2 +1,2 @@
-Text of question 1/Reply correct/Reply incorrect/Reply incorrect/Reply incorrect
-Text of question 2/Reply correct/Reply incorrect/Reply incorrect/Reply incorrect
+Example text 1/Response correct/Response incorrect 1/Response incorrect 2/Response incorrect 3
+Example text 2/Response correct/Response incorrect 1/Response incorrect 2/Response incorrect 3

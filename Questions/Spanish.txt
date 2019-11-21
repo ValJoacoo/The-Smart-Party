@@ -1,2 +1,2 @@
-Texto de la pregunta 1/Respuesta correcta/Respuesta incorrecta/Respuesta incorrecta/Respuesta incorrecta
-Texto de la pregunta 2/Respuesta correcta/Respuesta incorrecta/Respuesta incorrecta/Respuesta incorrecta
+texto de ejemplo 1/Respuesta correcta/Respuesta incorrecta 1/Respuesta incorrecta 2/Respuesta incorrecta 3
+texto de ejemplo 2/Respuesta correcta/Respuesta incorrecta 1/Respuesta incorrecta 2/Respuesta incorrecta 3
